@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "age.h"
-
+//функция для вощраста
 int calculateAge(int birthDay, int birthMonth, int birthYear, int deathDay, int deathMonth, int deathYear) {
     int age;
     if (deathYear == 0) {
